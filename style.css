@@ -1,0 +1,52 @@
+body {
+  background-color: #777;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.banner {
+  background-color: white;
+  height: 50px;
+  margin: 5px auto;
+  text-align: center;
+  line-height: 50px;
+  clear: both;
+}
+
+.content-container {
+  overflow: auto;
+  display: block;
+  position: relative;
+}
+
+section {
+  float: left;
+  padding: 10px;
+}
+
+aside {
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+aside, section {
+  background-color: white;
+  width: 49%;
+  text-align: center;
+}
+
+article {
+  background-color: #777;
+  padding: 10px;
+}
+
+article div, article p {
+  margin: 5px 0;
+  background-color: white;
+  padding: 5px
+}
